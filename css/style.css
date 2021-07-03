@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: #000;
+}
+.mynav {
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+}
+
+.mynav ul {
+  padding-top: 10px;
+}
+
+.mynav ul li {
+  display: inline;
+  padding-left: 5px;
+}
+
+.mynav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  height: 75vh; /* 100vh */
+  background-color: #1d2329;
+  padding: 5px;
+}
+
+.sort {
+  background: none;
+  color: #fff;
+  border: none;
+  width: 60px;
+  position: absolute;
+  padding: 5px;
+}
+
+.box {
+  width: 300px;
+  height: 150px;
+  margin-bottom: 50px;
+  background-color: #333;
+}
+
+.box .image {
+  width: 150px;
+  height: 150px;
+  float: left;
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.box .info {
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+
+.box .info .text {
+  width: 150px;
+  height: 75px;
+  color: #fff;
+}
+.box .info .like-box {
+  width: 150px;
+  height: 55px;
+  margin-top: 20px;
+  padding: 2px 2px 2px 2px;
+}
+
+.box .info .like-box .like {
+  color: #32a13d;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+.box .info .like-box .like-count {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #32a13d;
+  padding-top: 12px;
+  float: right;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .sort {
+    margin-left: 35%;
+  }
+  .box {
+    margin-left: 20%;
+  }
+  .wrapper {
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .sort {
+    margin-left: 35%;
+  }
+  .box {
+    margin-left: 20%;
+  }
+}
